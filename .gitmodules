@@ -1,0 +1,16 @@
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky.git
+	branch = sumo
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
+	branch = sumo
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+	branch = sumo
+[submodule "meta-webosose"]
+	path = meta-webosose
+	url = https://github.com/webosose/meta-webosose
+	branch = master
