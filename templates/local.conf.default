@@ -1,0 +1,10 @@
+# machine options
+MACHINE = "raspberrypi"
+IMAGE_ROOTFS_EXTRA_SPACE = "524288"
+
+# distro options
+PACKAGE_CLASSES ?= "package_deb"
+EXTRA_IMAGE_FEATURES ?= "debug-tweaks x11-base ssh-server-openssh"
+
+# sstate mirrors for sumo
+SSTATE_MIRRORS = "file://.* http://sstate.yoctoproject.org/2.5/PATH;downloadfilename=PATH \n"
