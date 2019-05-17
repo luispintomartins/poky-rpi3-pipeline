@@ -1,5 +1,6 @@
 # machine options
 MACHINE = "raspberrypi"
+DISTRO_NAME = "Poky (Yocto Project Reference Distro)"
 IMAGE_ROOTFS_EXTRA_SPACE = "524288"
 
 # distro options
@@ -8,3 +9,5 @@ EXTRA_IMAGE_FEATURES ?= "debug-tweaks x11-base ssh-server-openssh"
 
 # sstate mirrors for sumo
 SSTATE_MIRRORS = "file://.* http://sstate.yoctoproject.org/2.5/PATH;downloadfilename=PATH \n"
+
+# additional variables expected to exist in the build environment

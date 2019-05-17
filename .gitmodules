@@ -14,3 +14,7 @@
 	path = meta-webosose
 	url = https://github.com/webosose/meta-webosose
 	branch = master
+[submodule "meta-qt5"]
+	path = meta-qt5
+	url = git://github.com/meta-qt5/meta-qt5.git
+	branch = sumo
